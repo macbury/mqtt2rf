@@ -1,0 +1,12 @@
+rf_switch:
+  command_topic: 'home/living_room/rf_emitter/set'
+  state_topic: 'home/living_room/rf_emitter'
+  gpio: 3
+  pulselength: 321
+  protocol: 1
+
+mqtt:
+  host: ''
+  port: 7883
+  username: ''
+  password: ''
